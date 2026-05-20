@@ -189,6 +189,11 @@ li + li {
   line-height: 1.55;
 }
 
+.paper-authors strong {
+  color: var(--ink);
+  font-weight: 750;
+}
+
 .code-button {
   position: relative;
   z-index: 3;
