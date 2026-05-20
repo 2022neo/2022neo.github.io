@@ -92,6 +92,29 @@ li {
   font-size: 1rem;
 }
 
+.profile-meta {
+  display: grid;
+  gap: 0.8rem;
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.profile-meta div {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.profile-meta dt {
+  color: var(--ink);
+  font-weight: 750;
+}
+
+.profile-meta dd {
+  margin: 0;
+}
+
 ul {
   margin: 0.85rem 0 0;
   padding-left: 1.25rem;
