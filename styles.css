@@ -94,6 +94,7 @@ li {
 
 .profile-meta {
   display: grid;
+  grid-column: 1 / -1;
   gap: 0.8rem;
   margin: 1rem 0 0;
   color: var(--muted);
